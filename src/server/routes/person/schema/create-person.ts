@@ -1,0 +1,17 @@
+export default {
+    body: {
+        type: 'object',
+        properties: {
+            firstName: {
+                type: 'string'
+            },
+            lastName: {
+                type: 'string'
+            },
+            email: {
+                type: 'string'
+            }
+        },
+        required: ['firstName', 'lastName', 'email']
+    }
+}
